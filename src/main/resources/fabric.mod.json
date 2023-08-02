@@ -1,0 +1,49 @@
+{
+	"schemaVersion": 1,
+	"id": "races-of-the-infinite",
+	"version": "${version}",
+	"name": "Races of the Infinite",
+	"description": "Adds over 30+ races, each with varying archetypes to allow for a very diverse way of experiencing the minecraft world/s. ",
+	"authors": [
+		"BaconPalm"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/races-of-the-infinite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "baconpalm.roiraces.RoiRaces"
+		],
+		"client": [
+			"baconpalm.roiraces.RoiRacesClient"
+		],
+		"fabric-datagen": [
+			"baconpalm.roiraces.RoiRacesDataGenerator"
+		]
+	},
+	"mixins": [
+		"races-of-the-infinite.mixins.json",
+		{
+			"config": "races-of-the-infinite.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"origins": ">=1.10.0",
+		"pehkui": ">=3.7.7",
+		"trinkets": ">=3.7.1",
+		"icarus": ">=1.16",
+		"owo": ">=0.11",
+		"midnightlib": ">=1.4.1"
+
+	},
+	"suggests": {}
+}
