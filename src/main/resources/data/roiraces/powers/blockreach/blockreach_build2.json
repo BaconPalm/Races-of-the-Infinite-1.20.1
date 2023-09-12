@@ -1,0 +1,12 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "reach-entity-attributes:reach",
+      "value": 2,
+      "operation": "addition"
+    }
+  ],
+  "name": "Extended Blockreach",
+  "description": "You've got an additional block placement and break reach."
+}

@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "roiraces:health/health_down5",
+    "roiraces:speed/speed_up2",
+    "roiraces:flight/aerial_grace",
+    "roiraces:primary_movement/flap",
+    "roiraces:passive_powers/acrobatics",
+    "roiraces:techs/aves_tech_unlock"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 3,
+  "impact": 2,
+  "name": "Aves",
+  "description": "Originating from the floating islands, these once majestic birds used to rule the skies. Having lost that ability however they must find other means to conquer the clouds above their homes once again."
+}

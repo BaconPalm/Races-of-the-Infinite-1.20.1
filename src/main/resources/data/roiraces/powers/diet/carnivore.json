@@ -1,0 +1,17 @@
+{
+  "type": "origins:modify_food",
+  "food_modifier": {
+    "operation": "multiply_total_additive",
+    "value": -1.5
+  },
+  "saturation_modifier": {
+    "operation": "multiply_total_additive",
+    "value": -1.5
+  },
+  "item_condition": {
+    "type": "origins:meat",
+    "inverted": true
+  },
+  "name": "Carnivore",
+  "description": "You only eat meat. You can try eating vegetables and fruits, but get very diminishing returns from it."
+}

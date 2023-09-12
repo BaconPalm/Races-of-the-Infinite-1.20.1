@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "order": 1,
+  "replace": true,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:aves/aves",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "roiraces:aves/aves_phoenix"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:human/human",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "roiraces:human/human_high"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:elf/elf",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "roiraces:elf/elf_high"
+      ]
+    }
+  ]
+}

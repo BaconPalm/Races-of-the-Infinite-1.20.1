@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "roiraces:size/size_down2",
+    "roiraces:primary_movement/leap",
+    "roiraces:active_powers/grapple_tongue",
+    "roiraces:sticky_feet"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 6,
+  "impact": 2,
+  "name": "Anura",
+  "description": "These amphibian humanoids have forgone their four legged ways, mostly. They still retain strong climbing and explosive jumps."
+}

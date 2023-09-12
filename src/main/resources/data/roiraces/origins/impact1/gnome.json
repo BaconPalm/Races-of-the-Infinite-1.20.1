@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "roiraces:health/health_up2",
+    "roiraces:environment/darkvision",
+    "roiraces:tools/sm"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 5,
+  "impact": 1,
+  "name": "Gnome",
+  "description": "Gnomes may be small, but don't let their size fool you. Stout and stubborn, you'll seldom see them getting along with others."
+}

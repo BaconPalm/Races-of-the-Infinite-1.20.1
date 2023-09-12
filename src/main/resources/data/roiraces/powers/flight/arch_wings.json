@@ -1,0 +1,10 @@
+{
+  "type": "icarus:wings",
+  "wings_type": "icarus:white_feathered_wings",
+  "speed": 0.02,
+  "armor_slow_multiplier": 2,
+  "can_fly": true,
+  "armor_slows": true,
+  "name": "Arch Angel Wings",
+  "description": "Having proven yourself, you've gained your wings! You're well also well adapted to fight and fly with armor on."
+}

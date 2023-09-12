@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "races-of-the-infinite",
+	"id": "roiraces",
 	"version": "${version}",
 	"name": "Races of the Infinite",
 	"description": "Adds over 30+ races, each with varying archetypes to allow for a very diverse way of experiencing the minecraft world/s. ",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/races-of-the-infinite/icon.png",
+	"icon": "assets/roiraces/roiracesicon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -33,7 +33,7 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
+		"fabricloader": ">=0.14.22",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
@@ -43,7 +43,6 @@
 		"icarus": ">=1.16",
 		"owo": ">=0.11",
 		"midnightlib": ">=1.4.1"
-
 	},
 	"suggests": {}
 }

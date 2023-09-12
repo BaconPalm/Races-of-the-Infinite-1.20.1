@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "roiraces:size/size_up40",
+    "roiraces:titanic_lifeforce",
+    "roiraces:hunger/hunger_up20",
+    "roiraces:mountain_breaker"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 3,
+  "name": "Titan",
+  "description": "Giants don't normally grow beyond the size of trees, however Titans have surpassed this limit. However with bigger size, comes bigger doors..."
+}

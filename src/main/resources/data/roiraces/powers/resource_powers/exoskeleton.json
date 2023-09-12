@@ -1,0 +1,64 @@
+{
+  "type": "origins:multiple",
+
+  "resource":
+  {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 10,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "roiraces:textures/gui/resource_bar",
+      "bar_index": ""
+    }
+  },
+
+  "resourcedecrease":
+  {
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "roiraces:resource_powers/exoskeleton_resource_resource",
+      "change": -2
+    },
+    "cooldown": 60
+  },
+
+  "resourceincrease": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "roiraces:resource_powers/exoskeleton_resource_resource",
+      "change": 1
+    },
+    "interval": 200,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "roiraces:resource_powers/exoskeleton_resource_resource",
+          "comparison": "<",
+          "compare_to": 10
+        },
+        {
+          "type": "origins:food_level",
+          "comparison": ">",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "exoskeleton": {
+    "type": "origins:modify_attribute",
+    "attribute": "minecraft:generic.armor",
+    "modifier": {
+      "operation": "addition",
+      "resource": "roiraces:resource_powers/exoskeleton_resource_resource",
+      "value": 0
+    }
+  },
+
+  "name": "Exoskeleton",
+  "description": "You have an natural Exoskeleton that protects you for some hits, it will repair itself over time if you are fed."
+}

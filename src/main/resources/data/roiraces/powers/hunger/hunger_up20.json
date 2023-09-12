@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 2.0
+  },
+  "name": "Voracious",
+  "description": "You need an immense amount of food to sustain your hunger."
+}

@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "roiraces:aves_flight"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 3,
+  "name": "True Aves",
+  "description": "The ancient and true Aves race, once ruled the skies without limit with their flying abilities."
+}

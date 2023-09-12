@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "roiraces:speed/speed_up1",
+    "roiraces:big_boned",
+    "roiraces:primary_movement/charge",
+    "roiraces:primary_attack/trample",
+    "roiraces:rideable",
+    "roiraces:herbivore"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 6,
+  "impact": 3,
+  "name": "Centaur",
+  "description":"Half man, half horse, Centaurs are speedy and valiant. They have an expertise in ranged combat, but don't like to be ridden by others unless trusted."
+}

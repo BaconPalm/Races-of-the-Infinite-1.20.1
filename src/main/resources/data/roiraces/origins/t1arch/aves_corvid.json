@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "roiraces:ooh_shiny"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 2,
+  "name": "Aves Corvi",
+  "description": "Often mistaken as bringers of death, the Corvi are excellent treasure hunters."
+}

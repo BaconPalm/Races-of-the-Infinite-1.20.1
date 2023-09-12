@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "roiraces:"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 2,
+  "name": "Fel Anura",
+  "description": "With a specialised gland, the Fel-Anura can produce a potent poison. This does not however make them immune to other poisons."
+}

@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "roiraces:resource_powers/exoskeleton",
+    "roiraces:resource_powers/weak_flesh",
+    "roiraces:size/size_down2",
+    "roiraces:blockreach/blockreach_build2"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 8,
+  "impact": 2,
+  "name": "Formica",
+  "description": "Hardy, organised and adaptable, Formica are excellent builders, capable of amassing building supplies very easily."
+}

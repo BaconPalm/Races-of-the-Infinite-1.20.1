@@ -1,0 +1,10 @@
+{
+"type": "origins:entity_glow",
+  "bientity_condition": {
+    "type": "origins:distance",
+    "comparison": "<=",
+    "compare_to": 20
+  },
+  "name": "Sniff",
+  "description": "Using your keen senses you can highlight the location of all entities in a certain radius around you."
+}

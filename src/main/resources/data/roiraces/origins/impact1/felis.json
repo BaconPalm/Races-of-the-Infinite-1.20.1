@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "roiraces:speed/speed_up25",
+    "roiraces:environment/silent_stalk",
+    "roiraces:environment/fall",
+    "roiraces:primary_movement/pounce",
+    "roiraces:primary_attack/slash",
+    "roiraces:environment/darkvision",
+    "roiraces:diet/carnivore"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 8,
+  "impact": 1,
+  "name": "Felis",
+  "description": "Quick and flexible, Feli are dexterous and shrewd. Capable of seeing in the dark, you best watch your back at night."
+}

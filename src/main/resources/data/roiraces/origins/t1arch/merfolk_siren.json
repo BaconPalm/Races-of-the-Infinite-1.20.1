@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 2,
+  "name": "Siren",
+  "description": "Beautiful and deadly, Sirens are a variant of merfolk who are able to use their voice to disable their prey. This however comes at a cost of being slightly weaker than the regular merfolk."
+}

@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "roiraces:fire_immunity",
+    "roiraces:fire_invincibility",
+    "roiraces:active_powers/flame_burst"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 3,
+  "impact": 3,
+  "name": "Phoenix",
+  "description": "Born through the fire and the flames, Phoenixes are a rare archetype of the Aves. They've recovered their ability to fly and have near invincibility when alight."
+}

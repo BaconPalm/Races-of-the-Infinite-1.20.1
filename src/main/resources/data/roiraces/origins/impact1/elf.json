@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "roiraces:size/size_up2narrow",
+    "roiraces:speed/speed_up25",
+    "roiraces:health/health_down2",
+    "roiraces:environment/forager",
+    "roiraces:techs/elf_tech_unlock"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 3,
+  "impact": 1,
+  "name": "Elf",
+  "description": "A long-lived race with slender agile bodies. Most Elves seldom leave their birthplace, most adapting almost fully to the environment they're from."
+}

@@ -1,0 +1,25 @@
+{
+  "type": "origins:multiple",
+
+  "slowfall": {
+    "type": "origins:modify_falling",
+    "velocity": 0.004,
+    "take_fall_damage": false,
+    "condition": {
+      "type": "origins:sneaking",
+      "inverted": true
+    }
+  },
+
+  "drop": {
+    "type": "origins:modify_falling",
+    "velocity": 0.2,
+    "take_fall_damage": false,
+    "condition": {
+      "type": "origins:sneaking"
+    }
+  },
+
+  "name": "Aerial Grace",
+  "description": "Whilst unable to truly fly, you're still able to gracefully control your aerial movement and do not take fall damage. Sneak to accelerate your fall."
+}

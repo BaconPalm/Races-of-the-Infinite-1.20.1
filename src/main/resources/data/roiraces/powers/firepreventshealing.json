@@ -1,0 +1,7 @@
+{
+  "type": "origins:disable_regen",
+  "condition": {
+    "type": "origins:on_fire"
+  },
+  "hidden": true
+}

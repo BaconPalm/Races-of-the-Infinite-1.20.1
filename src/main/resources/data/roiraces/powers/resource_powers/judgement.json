@@ -1,0 +1,54 @@
+{
+  "type": "origins:multiple",
+
+  "judgementlevel": {
+    "type": "origins:resource",
+    "min": -500,
+    "max": 1000,
+    "start_value": 0,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "roiraces:textures/gui/resource_bar",
+      "bar_index": 6
+    }
+  },
+
+    "judgementbuff":{
+      "type": "origins:action_over_time",
+      "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "minecraft:strength",
+            "duration": 220,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false
+          },
+          {
+            "effect": "minecraft:haste",
+            "duration": 220,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false
+          },
+          {
+            "effect": "minecraft:absorption",
+            "duration": 220,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false
+          }
+        ]
+      },
+      "interval": 200,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "roiraces:resource_powers/judgement_judgementlevel",
+        "comparison": ">=",
+        "compare_to": 50
+      }
+    },
+  "name": "Judgement",
+  "description": "Punishing evil beings rewards you with increased abilities and powers, but wrongful purging can decrease this power."
+}

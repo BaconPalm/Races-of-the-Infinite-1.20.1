@@ -1,0 +1,10 @@
+{
+  "type": "icarus:wings",
+  "wings_type": "icarus:black_feathered_wings",
+  "speed": 0.03,
+  "armor_slow_multiplier": 4,
+  "can_fly": true,
+  "armor_slows": true,
+  "name": "Fallen Angel Wings",
+  "description": "Falling from grace, you've decided to forge your own wings."
+}

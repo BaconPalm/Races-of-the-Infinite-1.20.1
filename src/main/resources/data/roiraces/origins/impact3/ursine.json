@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "roiraces:health/health_up5",
+    "roiraces:size/size_up3",
+    "roiraces:heavy_swing",
+    "roiraces:thick_hide",
+    "roiraces:resource_powers/hibernate",
+    "roiraces:food_stash"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 8,
+  "impact": 3,
+  "name": "Ursine",
+  "description": "The Ursine are big, hardy and cuddly? They may be generally friendly, but don't let that friendliness fool you, belittling their kindness has been the death of many."
+}

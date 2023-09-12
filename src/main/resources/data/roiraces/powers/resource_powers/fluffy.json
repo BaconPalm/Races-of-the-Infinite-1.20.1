@@ -1,0 +1,137 @@
+{
+  "type": "origins:multiple",
+
+  "fluff": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 8,
+    "start_value": 3,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "roiraces:textures/gui/roi_resource_bar",
+      "bar_index": ""
+    }
+  },
+
+  "slowswim": {
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+      "operation": "addition",
+      "resource": "roiraces:resource_powers/fluffy_fluff",
+      "value": -0.01
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "roiraces:resource_powers/fluffy_fluff",
+      "comparison": ">=",
+      "compare_to": 6
+    }
+  },
+
+  "fluffresist": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:resistance",
+        "duration": 60,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": false
+      }
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "roiraces:resource_powers/fluffy_fluff",
+      "comparison": ">=",
+      "compare_to": 3
+    }
+  },
+
+  "shear": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:white_wool",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+              "type": "origins:damage",
+              "amount": 1
+          }
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "roiraces:resource_powers/fluffy_fluff",
+          "change": -1
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:entity.sheep.shear",
+          "volume": 0.5
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:shears"
+            }
+          }
+        },
+        {
+          "type": "origins:resource",
+          "resource": "roiraces:resource_powers/fluffy_fluff",
+          "comparison": ">",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+
+
+  "growth": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "roiraces:resource_powers/fluffy_fluff",
+          "change": 1
+        },
+        {
+          "type": "origins:play_sound",
+          "sound": "minecraft:block.powder_snow.place",
+          "pitch": 0.6,
+          "volume": 0.5
+        }
+      ]
+    },
+    "interval": 6000,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "roiraces:resource_powers/fluffy_fluff",
+      "comparison": "<",
+      "compare_to": 8
+    }
+  },
+
+  "name": "Fluffy",
+  "description": "You naturally grow wool, this protects you slightly. However too much of it slows you down, especially in water. You can shear it using your active ability and shears in your hand."
+}

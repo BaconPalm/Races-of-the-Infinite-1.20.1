@@ -1,0 +1,22 @@
+{
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_total",
+      "value": 0.5
+    },
+    {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "multiply_total",
+      "value": -0.5
+    },
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "operation": "multiply_total",
+      "value": 0.5
+    }
+  ],
+  "name": "Heavy Swing",
+  "description": "Your attacks hit harder, but less often."
+}

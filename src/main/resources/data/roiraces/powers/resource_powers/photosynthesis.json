@@ -1,0 +1,129 @@
+{
+  "type": "origins:multiple",
+
+  "sunlightmeter": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 16,
+    "start_value": 4,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "roiraces:textures/gui/roi_resource_bar",
+      "bar_index": ""
+    }
+  },
+
+  "sunlightempower": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:haste",
+          "duration": 100,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        },
+        {
+          "effect": "minecraft:saturation",
+          "duration": 100,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        },
+        {
+          "effect": "minecraft:strength",
+          "duration": 100,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        }
+      ]
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "roiraces:resource_powers/photosynthesis_sunlightmeter",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+
+
+  "photosynthesis":{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "roiraces:resource_powers/photosynthesis_sunlightmeter",
+      "change": 1
+    },
+    "interval": 1200,
+    "condition": {
+      "type": "origins:exposed_to_sun"
+    }
+  },
+
+  "decrease": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "roiraces:resource_powers/photosynthesis_sunlightmeter",
+      "change": -1
+    },
+    "interval": 2400,
+    "condition": {
+      "type": "origins:exposed_to_sun",
+      "inverted": true
+    }
+  },
+
+  "necrosis": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:slowness",
+          "duration": 100,
+          "amplifier": 1,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        },
+        {
+          "effect": "minecraft:hunger",
+          "duration": 100,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        },
+        {
+          "effect": "minecraft:weakness",
+          "duration": 100,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        }
+      ]
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "roiraces:resource_powers/photosynthesis_sunlightmeter",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+
+  "nofood": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:food"
+    }
+  },
+
+
+  "name": "Photosynthesis",
+  "description": "You store sunlight as energy, empowering you and removing your need to eat food, however if it runs out, you'll need to return to the sun at some point before you are starved of your energy."
+}

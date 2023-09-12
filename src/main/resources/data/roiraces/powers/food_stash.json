@@ -1,0 +1,11 @@
+{
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "item": "minecraft:apple",
+      "amount": 4
+    }
+  ],
+  "name": "Food Stash",
+  "description": "You have 4 apples stashed on you, in case of emergency."
+}

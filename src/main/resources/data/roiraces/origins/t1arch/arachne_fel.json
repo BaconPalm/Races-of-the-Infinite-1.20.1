@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "roiraces:poison",
+    "roiraces:",
+    "roiraces:"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 8,
+  "impact": 2,
+  "name": "Fel-Arachne",
+  "description": "These Arachne have their fangs coated in a fairly deadly poison, and are able to produce plenty of it. They are however not immune to other poisons."
+}

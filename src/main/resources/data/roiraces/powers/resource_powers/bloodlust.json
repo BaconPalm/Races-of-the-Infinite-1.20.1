@@ -1,0 +1,142 @@
+{
+  "type": "origins:multiple",
+
+  "bloodlustlevel": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 50,
+    "start_value": 10,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "roiraces:textures/gui/resource_bar",
+      "bar_index": 7
+    }
+  },
+
+  "bloodbuff": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:strength",
+          "duration": 220,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        },
+        {
+          "effect": "minecraft:haste",
+          "duration": 220,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        },
+        {
+          "effect": "minecraft:absorption",
+          "duration": 220,
+          "is_ambient": false,
+          "show_particles": false,
+          "show_icon": false
+        }
+      ]
+    },
+    "interval": 200,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "roiraces:resource_powers/bloodlust_bloodlustlevel",
+      "comparison": ">=",
+      "compare_to": 10
+    }
+  },
+
+  "bloodbuffbuffer": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effects": [
+      "minecraft:strength",
+      "minecraft:haste",
+      "minecraft:absorption"
+    ],
+    "modifier": {
+      "operation": "add_base_early",
+      "value": 1
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "roiraces:resource_powers/bloodlust_bloodlustlevel",
+      "comparison": ">=",
+      "compare_to": 25
+    }
+  },
+
+  "bloodbuffbuffest": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effects": [
+      "minecraft:strength",
+      "minecraft:haste",
+      "minecraft:absorption"
+    ],
+    "modifier": {
+      "operation": "add_base_early",
+      "value": 1
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "roiraces:resource_powers/bloodlust_bloodlustlevel",
+      "comparison": ">=",
+      "compare_to": 45
+    }
+  },
+
+  "netherdecay": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "roiraces:resource_powers/bloodlust_bloodlustlevel",
+      "change": -1
+    },
+    "interval": 600,
+    "conditions": [
+      {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "roiraces:resource_powers/bloodlust_bloodlustlevel",
+        "comparison": ">",
+        "compare_to": 5
+      }
+    ]
+  },
+
+  "nonnetherdecay": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "roiraces:resource_powers/bloodlust_bloodlustlevel",
+      "change": -1
+    },
+    "interval": 600,
+    "condition":
+      {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether",
+        "inverted": true
+      }
+  },
+
+  "kill": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "roiraces:resource_powers/bloodlust_bloodlustlevel",
+      "change": 1
+    },
+    "cooldown": 20
+  },
+
+  "name": "Bloodlust",
+  "description": "Craving violence, you gain bloodlust from killing entities. This resource meter will slowly deplete to half in the nether, and fully outside of the nether. You become stronger the more bloodlust you have, but if it empties you become rather helpless."
+}
+

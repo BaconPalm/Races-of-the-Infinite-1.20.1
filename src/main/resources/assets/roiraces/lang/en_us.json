@@ -1,0 +1,23 @@
+{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "death.attack.pierce": "%1$s was punctured right through",
+  "death.attack.pierce.player": "%1$s was punctured right through by %2$s",
+  "death.attack.slash": "%1$s was sliced to bits",
+  "death.attack.slash.player": "%1$s was sliced to bits by %2$s",
+  "death.attack.crush": "%1$s was crushed into a fine paste",
+  "death.attack.crush.player": "%1$s was crushed into a fine paste by %2$s"
+}

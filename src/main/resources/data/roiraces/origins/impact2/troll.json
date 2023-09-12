@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "roiraces:size/size_up3",
+    "roiraces:health/health_up5",
+    "roiraces:health/natural_regeneration",
+    "roiraces:firepreventshealing",
+    "roiraces:heavy_swing"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 2,
+  "impact": 2,
+  "name": "Troll",
+  "description": "Strong with incredible healing abilities, Trolls are fierce fighters. However they are weak in sunlight and searing their wounds stops their natural ability to recover."
+}

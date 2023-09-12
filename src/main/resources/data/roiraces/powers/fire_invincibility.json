@@ -1,0 +1,8 @@
+{
+  "type": "origins:prevent_death",
+  "condition": {
+    "type": "origins:on_fire"
+  },
+  "name": "Invincible Flames",
+  "description": "When on fire, you are unable to die, however beware you will be left very vulnerable if that fire is put out."
+}

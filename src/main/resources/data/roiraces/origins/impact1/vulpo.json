@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "roiraces:health/health_down2",
+    "roiraces:primary_movement/pounce",
+    "roiraces:primary_attack/bite",
+    "roiraces:environment/stealth",
+    "roiraces:environment/scavenge",
+    "roiraces:environment/darkvision"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 9,
+  "impact": 1,
+  "name": "Vulpo",
+  "description": "Sly and mischievous, the Vulpo are skittish but don't let their pranks fool you, as they're not as weak as they seem."
+}

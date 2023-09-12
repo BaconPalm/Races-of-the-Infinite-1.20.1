@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "roiraces:thick_coat",
+    "roiraces:resource_powers/fluffy",
+    "roiraces:diet/herbivore"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 2,
+  "name": "Aries",
+  "description": "A peaceful race of Herbivores who grow warm coats of wool."
+}

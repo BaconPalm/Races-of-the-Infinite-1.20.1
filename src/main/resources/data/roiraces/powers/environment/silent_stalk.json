@@ -1,0 +1,6 @@
+{
+  "type": "origins:prevent_game_event",
+  "event": "minecraft:step",
+  "name": "Silent Step",
+  "description": "Your steps are so light that they make no noise."
+}

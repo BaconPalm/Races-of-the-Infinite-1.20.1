@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:resource_powers/bloodlust",
+    "roiraces:environment/darkvision"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 2,
+  "impact": 3,
+  "name": "Demon",
+  "description": "Hailing from the Nether, Demons are usually masters of carnage, aiming to purge every living being to fuel their power. They gain strength in the nether, but slowly lose it outside if not constantly killing."
+}

@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "roiraces:size/size_up30",
+    "roiraces:size/big_boned",
+    "roiraces:health/giants_might",
+    "roiraces:speed/speed_down75",
+    "roiraces:hunger/hunger_up5",
+    "roiraces:primary_attack/slam",
+    "roiraces:crushing",
+    "roiraces:heavy_swing"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 7,
+  "impact": 3,
+  "name": "Giant",
+  "description": "These behemoths are huge and strong, Giants are sights to behold. However their size comes at a cost of unwieldiness and a difficulty of fitting through doors."
+}

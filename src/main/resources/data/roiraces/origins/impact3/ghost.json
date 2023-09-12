@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:resource_powers/ethereal",
+    "roiraces:environment/darkvision"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 5,
+  "impact": 3,
+  "name": "Ghost",
+  "description": "Spooky and scary, Ghosts are often misunderstood. Ethereal and poorly tethered to the mortal realm, physics seem to be rather ineffective on them."
+}

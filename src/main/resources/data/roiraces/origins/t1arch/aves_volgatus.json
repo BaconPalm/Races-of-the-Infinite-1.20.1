@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "roiraces:gliding"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 2,
+  "name": "Aves Vulgatus",
+  "description": "The most common archetype of Aves, the Vulgati have simple wings allowing them to gracefully glide, but not much more."
+}

@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "roiraces:size/size_down4",
+    "roiraces:health/health_down5",
+    "roiraces:greed",
+    "roiraces:colour/goblin",
+    "roiraces:tools/sm",
+    "roiraces:techs/goblin_tech_unlock"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 6,
+  "impact": 1,
+  "name": "Goblin",
+  "description": "Green, Mean but not so Lean. These tiny folks know a thing or too about machines. Quite useful too since they're pretty weak."
+}

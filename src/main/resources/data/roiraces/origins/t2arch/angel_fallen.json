@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "roiraces:flight/fallen_wings"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 3,
+  "impact": 3,
+  "name": "Fallen Angel",
+  "description": "Not abiding the heaven's code, you have been casted aside by your brethren, you no longer see justice the same way they do."
+}

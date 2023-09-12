@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:strong_constitution",
+    "roiraces:magic/innate_magic"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 3,
+  "name": "High Elf",
+  "description": "An Elf who's lived long enough, or developed themselves beyond normal Elf capabilities. Their bodies now strengthened by strong magics."
+}

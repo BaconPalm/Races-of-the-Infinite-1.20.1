@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -0.5,
+    "operation": "multiply_total",
+    "update_health": true
+  },
+  "name": "Fragile",
+  "description": "Hollows in you body make you extremely fragile."
+}

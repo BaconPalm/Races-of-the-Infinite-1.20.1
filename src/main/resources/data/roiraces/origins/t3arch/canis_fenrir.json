@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:player_head",
+  "order": 6,
+  "impact": 1,
+  "name": "Fenrir",
+  "description": "Legendary."
+}

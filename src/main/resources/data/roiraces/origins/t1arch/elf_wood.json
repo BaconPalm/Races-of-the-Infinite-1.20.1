@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:environment/gathering",
+    "roiraces:spawns/forestborn"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 1,
+  "name": "Wood Elf",
+  "description": "The most common Elf that lives in the Deepwood forests. Masters of forest combat and living off the land, these Elves are not to be trifled with when within their home territory."
+}

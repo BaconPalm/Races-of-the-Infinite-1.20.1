@@ -1,0 +1,37 @@
+{
+  "enabled": false,
+  "order": 1,
+  "replace": true,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:dragonborn/dragonborn",
+        "layer": "origins:races"
+      },
+      "origins": [
+        "roiraces:dragonborn/dragonborn_stellar"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:angel/angel",
+        "layer": "origins:races"
+      },
+      "origins": [
+        "roiraces:angel/angel_seraphim"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:demon/demon",
+        "layer": "origins:races"
+      },
+      "origins": [
+        "roiraces:demon/demon_maou"
+      ]
+    }
+  ]
+}

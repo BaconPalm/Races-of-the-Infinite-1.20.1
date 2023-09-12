@@ -1,0 +1,38 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:exhaust",
+        "amount": 0.8
+      },
+      {
+        "type": "origins:add_velocity",
+        "y": 1.3,
+        "space": "local",
+        "client": true,
+        "server": false
+      },
+      {
+        "type": "origins:add_velocity",
+        "z": 0.3,
+        "space": "local",
+        "client": true,
+        "server": false
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @s"
+      }
+    ]
+  },
+  "cooldown": 100,
+  "hud_render": {
+    "sprite_location": "roiraces:textures/gui/roi_resource_bar.png",
+    "bar_index": 0
+  },
+  "key": "key.origins.secondary_active",
+  "name": "Flap",
+  "description": "You have rudimentary flight capabilities, able to propel yourself upwards every so often."
+}

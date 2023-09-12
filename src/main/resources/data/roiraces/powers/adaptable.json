@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_xp_gain",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 1.05
+  },
+  "name": "Adaptable",
+  "description": "You gain additional xp and learn skills faster."
+}

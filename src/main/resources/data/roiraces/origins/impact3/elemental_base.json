@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:magic/elemental_magic",
+    "roiraces:"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 3,
+  "impact": 3,
+  "name": "Elemental",
+  "description": "A being fully constituted from an Element, having amplified abilities in contact with their element, but weakened in others."
+}

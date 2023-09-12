@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "roiraces:health/health_down2",
+    "roiraces:size/size_down2",
+    "roiraces:primary_movement/hop",
+    "roiraces:primary_attack/trample",
+    "roiraces:lucky",
+    "roiraces:diet/herbivore"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 10,
+  "impact": 1,
+  "name": "Lepori",
+  "description": "Hopping about with powerful legs, Lepori are typically peaceful , but are still capable warriors."
+}

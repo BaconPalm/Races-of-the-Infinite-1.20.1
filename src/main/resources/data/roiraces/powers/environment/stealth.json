@@ -1,0 +1,32 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:invisibility",
+      "duration": 60,
+      "is_ambient": false,
+      "show_particles": false,
+      "show_icon": false
+    }
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:on_block",
+        "block_condition": {
+          "type": "origins:light_level",
+          "comparison": "<",
+          "compare_to": 2
+        }
+      },
+      {
+        "type": "origins:sneaking"
+      }
+    ]
+  },
+  "name": "Stealth",
+  "description": "Whilst in darkness and sneaking, you can become invisible."
+}

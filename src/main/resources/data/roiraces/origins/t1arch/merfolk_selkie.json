@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:player_head",
+  "order": 5,
+  "impact": 2,
+  "name": "Selkie",
+  "description": "Creatures from the ocean, Merfolk are agile and adept swimmers, capable of traversing both land and water."
+}

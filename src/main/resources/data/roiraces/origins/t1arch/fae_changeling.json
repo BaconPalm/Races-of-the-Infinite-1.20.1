@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "roiraces:polymorph"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 7,
+  "impact": 2,
+  "name": "Changeling",
+  "description": "Tricky and deceitful, Changelings are able to copy the appearance of other creatures almost seamlessly."
+}

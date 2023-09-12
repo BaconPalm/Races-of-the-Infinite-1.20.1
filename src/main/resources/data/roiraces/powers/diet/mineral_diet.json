@@ -1,0 +1,66 @@
+{
+  "type": "origins:multiple",
+
+  "hungerbarreplace": {
+
+  },
+
+  "foodhalfing":{
+    "type": "origins:modify_food",
+    "food_modifier": {
+      "operation": "multiply_total_additive",
+      "value": -1
+    },
+    "saturation_modifier": {
+      "operation": "multiply_total_additive",
+      "value": -1
+    }
+  },
+
+  "copperore": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "apoli:ingredient",
+      "ingredient": {
+        "item": "minecraft:copper_ore"
+      }
+    },
+    "food_component": {
+      "hunger": 6,
+      "saturation": 4
+    },
+    "use_action": "eat"
+  },
+  "ironore": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "apoli:ingredient",
+      "ingredient": {
+        "item": "minecraft:iron_ore"
+      }
+    },
+    "food_component": {
+      "hunger": 8,
+      "saturation": 6
+    },
+    "use_action": "eat"
+  },
+
+  "goldore": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "apoli:ingredient",
+      "ingredient": {
+        "item": "minecraft:gold_ore"
+      }
+    },
+    "food_component": {
+      "hunger": 10,
+      "saturation": 8
+    },
+    "use_action": "eat"
+  },
+
+  "name": "Mineral Diet",
+  "description": "Normal foods aren't saturating enough, you need to eat earthen materials to survive. Regular foods restore half their original hunger and different minerals restore high amounts of hunger."
+}

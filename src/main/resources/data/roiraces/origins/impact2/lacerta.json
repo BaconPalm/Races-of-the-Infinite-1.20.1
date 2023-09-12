@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:",
+    "roiraces:diet/carnivore"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 4,
+  "impact": 2,
+  "name": "Lacerta",
+  "description": "A reptilian race, not associated with dragons. The Lacerta hail from a variety of environments are typically well adapted to the territory they guard."
+}

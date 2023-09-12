@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:resource_powers/judgement",
+    "roiraces:environment/darkvision"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 3,
+  "name": "Angel",
+  "description": "Typically agents of good, Angels fly down from their floating homes to exterminate all demonic and evil creatures. The more the slaughter the stronger they become. You however, are an earthbound angel who has not yet earned the ability to fly."
+}

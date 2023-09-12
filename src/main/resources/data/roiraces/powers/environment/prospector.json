@@ -1,0 +1,101 @@
+{
+  "type": "origins:action_on_block_break",
+  "block_condition": {
+    "type": "origins:block",
+    "block": "minecraft:stone"
+  },
+  "entity_action": {
+    "type": "origins:choice",
+    "actions": [
+      {
+        "element": {
+          "type": "origins:nothing"
+          },
+        "weight": 9900
+      },
+      {
+        "element": {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:raw_iron"
+          }
+        },
+        "weight": 20
+      },
+      {
+        "element": {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:raw_copper"
+          }
+        },
+        "weight": 30
+      },
+      {
+        "element": {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:raw_gold"
+          }
+        },
+        "weight": 7
+      },
+      {
+        "element": {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:lapis_lazuli"
+          }
+        },
+        "weight": 3
+      },
+      {
+        "element": {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:redstone"
+          }
+        },
+        "weight": 8
+      },
+      {
+        "element": {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:coal"
+          }
+        },
+        "weight": 25
+      },
+      {
+        "element": {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:emerald"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:diamond"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "type": "origins:give",
+          "stack": {
+            "item": "minecraft:quartz"
+          }
+        },
+        "weight": 5
+      }
+    ]
+  },
+  "name": "Prospector",
+  "description": "When mining stone you are able to find traces of metals and gemstones. Small chance to get ores/minerals when mining naturally generated stone."
+}

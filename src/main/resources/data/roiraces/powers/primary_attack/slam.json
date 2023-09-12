@@ -1,0 +1,50 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 5,
+        "bientity_action": {
+          "type": "origins:damage",
+          "amount": 8,
+          "damage_type": "roiraces:crush"
+        },
+        "bientity_condition":
+        {
+          "type": "origins:can_see",
+          "shape_type": "outline"
+        }
+      },
+      {
+        "type": "origins:exhaust",
+        "amount": 1
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "particle explode ^ ^ ^ 3 3 3 0 200 normal @s"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.player.attack.crit",
+        "pitch": 0.75 ,
+        "volume": 0.5
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.generic.explode",
+        "pitch": 1.5,
+        "volume": 0.3
+      }
+    ]
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "sprite_location": "roiraces:textures/gui/roi_resource_bar.png",
+    "bar_index": 3
+  },
+  "key": "key.origins.primary_active",
+  "name": "Slam",
+  "description": "You're able to perform a large radius ground smash, disabling shields. The damage scales with your Strength attribute."
+}

@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "roiraces:wallclimb",
+    "roiraces:",
+    "roiraces:environment/darkvision"
+    "roiraces:diet/carnivore"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 5,
+  "impact": 2,
+  "name": "Arachne",
+  "description": "Commonly found within their webs, Arachne are a spider like race which can produce and manipulate fine silks in a variety of ways."
+}

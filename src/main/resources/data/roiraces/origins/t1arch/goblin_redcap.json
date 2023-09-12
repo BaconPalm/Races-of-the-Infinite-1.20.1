@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "roiraces:explosion_resistance",
+    "roiraces:cheaper_tnt"
+  ],
+  "order": 2,
+  "impact": 2,
+  "name": "Redcap Goblin",
+  "description": "Specialised in explosives, Redcap Goblins are often to known to blow up their hilly homes, coming out almost completely unscathed. How they do this remains a mystery."
+}

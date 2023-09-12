@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:flight/arch_wings",
+    "roiraces:special_items/arch_twin_swords"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 1,
+  "name": "Arch-Angel",
+  "description": "Having enacted Justice on enough wrong-doers you have earned your place among the ranks of the agents of justice."
+}

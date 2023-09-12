@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "roiraces:adaptable",
+    "roiraces:versatile",
+    "roiraces:environment/resourceful"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 1,
+  "name": "Human",
+  "description": "A common race that, whilst basic, is capable and hardy. Their knowledge and adaptability can far surpass the other races."
+}

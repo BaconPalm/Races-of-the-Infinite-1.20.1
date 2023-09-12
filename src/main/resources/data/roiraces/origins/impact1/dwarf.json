@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "roiraces:size/size_down3",
+    "roiraces:health/health_up2",
+    "roiraces:environment/prospector",
+    "roiraces:techs/dwarf_tech_unlock"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 2,
+  "impact": 1,
+  "name": "Dwarf",
+  "description": "A short and stout race, proud of their well developed smithing techniques. You rarely see them outside of their underground homes, often too attached to their minerals to leave home."
+}

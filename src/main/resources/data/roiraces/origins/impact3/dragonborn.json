@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "roiraces:size/size_up3",
+    "roiraces:hunger/hunger_up20",
+    "roiraces:diet/mineral_diet",
+    "roiraces:magic/draconic_magic",
+    "roiraces:environment/darkvision"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 10,
+  "impact": 3,
+  "name": "Dragonborn",
+  "description": "Owing to a deep and powerful lineage, Dragonborn are fierce, territorial and powerful. They have the potential to grow into true dragons, if they can sustain their endless hunger."
+}

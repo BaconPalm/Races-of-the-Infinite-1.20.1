@@ -1,0 +1,47 @@
+{
+  "enabled": true,
+  "order": 1,
+  "replace": false,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:orc/orc",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "roiraces:orc/orc_uruk-hai"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:fae/fae",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "roiraces:fae/fae_changeling"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:angel/angel",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "roiraces:angel/angel_arch"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:demon/demon",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "roiraces:demon/demon_arch"
+      ]
+    }
+  ]
+}

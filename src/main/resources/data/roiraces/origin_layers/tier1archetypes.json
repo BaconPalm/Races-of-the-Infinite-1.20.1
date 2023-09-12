@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "name": "Archetype",
+  "order": 1,
+  "replace": false,
+  "origins": [
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:aves/aves",
+        "layer": "origins:origin"
+      },
+      "origins": [
+        "roiraces:aves/aves_corvid",
+        "roiraces:aves/aves_falco",
+        "roiraces:aves/aves_strigidae"
+      ]
+    },
+    {
+      "condition": {
+        "type": "origins:origin",
+        "origin": "roiraces:troll/troll",
+        "layer": "origins:origin"
+    },
+      "origins": [
+        "roiraces:troll/troll_cave",
+        "roiraces:troll/troll_mountain",
+        "roiraces:troll/troll_snow"
+      ]
+    }
+  ]
+}

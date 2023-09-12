@@ -1,0 +1,15 @@
+{
+  "type": "origins:modify_damage_taken",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "roiraces:resource_powers/exoskeleton_resource_resource",
+    "comparison": "<",
+    "compare_to": 1
+  },
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 0.5
+  },
+  "name": "Weak Flesh",
+  "description": "You take increased damage from all sources without your exoskeleton."
+}

@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "roiraces:size/size_up3",
+    "roiraces:health/health_up2",
+    "roiraces:grass_eat"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 10,
+  "impact": 2,
+  "name": "Taurus",
+  "description": "Horned and muscular, Tauri are big and adaptable."
+}

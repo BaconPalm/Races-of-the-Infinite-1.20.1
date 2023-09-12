@@ -1,0 +1,18 @@
+{
+  "type": "origins:attribute",
+  "modifiers":[
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 1,
+      "operation": "multiply_total",
+      "update_health": true
+    },
+    {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "operation": "addition",
+      "value": 0.5
+    }
+  ],
+  "name": "Giant's Might",
+  "description": "You're a giant, you've got a gigantic health pool and are harder to knock back."
+}

@@ -1,0 +1,29 @@
+{
+  "type": "origins:multiple",
+
+  "stayonfire": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:set_on_fire",
+      "duration": 4
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:on_fire"
+    }
+  },
+
+  "doublefiredamage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:fire"
+    },
+    "modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": 2
+    }
+  },
+
+  "name": "Flammable",
+  "description": "You are heavily susceptible to fire, taking increased damage from it and unable to naturally extinguish. You may want a bucket of water with you at all times."
+}

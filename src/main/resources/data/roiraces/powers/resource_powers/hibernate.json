@@ -1,0 +1,113 @@
+{
+  "type": "origins:multiple",
+
+  "hibernate": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 10,
+    "start_value": 10,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "roiraces:textures/gui/roi_resource_bar",
+      "bar_index": ""
+    },
+    "min_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effects": [
+            {
+              "effect": "minecraft:slowness",
+              "duration": 1200,
+              "amplifier": 3,
+              "is_ambient": false,
+              "show_particles": false,
+              "show_icon": false
+            },
+            {
+              "effect": "minecraft:blindness",
+              "duration": 1200,
+              "is_ambient": false,
+              "show_particles": false,
+              "show_icon": false
+            },
+            {
+              "effect": "minecraft:weakness",
+              "duration": 1200,
+              "amplifier": 2,
+              "is_ambient": false,
+              "show_particles": false,
+              "show_icon": false
+            },
+            {
+              "effect": "minecraft:hunger",
+              "duration": 1200,
+              "amplifier": 4,
+              "is_ambient": false,
+              "show_particles": false,
+              "show_icon": false
+            },
+            {
+              "effect": "minecraft:mining_fatigue",
+              "duration": 1200,
+              "amplifier": 1,
+              "is_ambient": false,
+              "show_particles": false,
+              "show_icon": false
+            }
+          ]
+        },
+        {
+          "type":"origins:change_resource",
+          "resource": "roiraces:resource_powers/hibernate_hibernate",
+          "change": 10,
+          "condition": {
+            "type": "origins:resource",
+            "resource": "roiraces:resource_powers/hibernate_hibernate",
+            "comparison": "==",
+            "compare_to": 0
+          }
+        }
+      ]
+    }
+  },
+
+  "hibernatetimer": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "roiraces:resource_powers/hibernate_hibernate",
+      "change": -1
+    },
+    "interval": 2400
+  },
+
+  "sleepreset": {
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "roiraces:resource_powers/hibernate_hibernate",
+          "change": 10
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:hunger",
+            "duration": 600,
+            "amplifier": 19,
+            "is_ambient": false,
+            "show_particles": false,
+            "show_icon": false
+          }
+        }
+      ]
+    }
+  },
+
+  "name": "Hibernate",
+  "description": "Your strong body takes its toll on you eventually, needing to hibernate every so often to recover. This impairs you for a bit if you don't sleep, and you get ravenously hungry after waking up."
+}

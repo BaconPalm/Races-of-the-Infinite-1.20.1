@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "roiraces:cave_vision"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 2,
+  "name": "Deep Dwarf",
+  "description": "Dig deep enough and you'll find Deep Dwarfs. This archetype has long since not seen the light of day, far too akin to darkness that they can simply see through it."
+}

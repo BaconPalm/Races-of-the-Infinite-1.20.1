@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "roiraces:resource_powers/photosynthesis",
+    "roiraces:environment/fire_weakness",
+    "roiraces:rooted",
+    "roiraces:active_powers/wild_growth"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 7,
+  "impact": 2,
+  "name": "Floran",
+  "description": "Sentient plant beings, who are empowered in sunlight, but feel very lethargic if they go too long without it."
+}

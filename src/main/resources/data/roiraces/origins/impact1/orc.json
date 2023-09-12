@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "roiraces:size/size_up3",
+    "roiraces:health/health_up2",
+    "roiraces:hunger/hunger_up5",
+    "roiraces:heavy_swing",
+    "roiraces:carnage",
+    "roiraces:tools/ml"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 4,
+  "impact": 1,
+  "name": "Orc",
+  "description": "Well known for their strength, Orcs are have big bodies, and even bigger appetites."
+}

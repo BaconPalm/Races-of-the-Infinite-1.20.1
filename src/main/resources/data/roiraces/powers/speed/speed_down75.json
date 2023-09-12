@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_velocity",
+  "modifier": {
+    "value": -0.75,
+    "operation": "multiply_total"
+  },
+  "axes": [
+    "x",
+    "z",
+    "y"
+  ],
+  "name": "Lumbering",
+  "description": "You're slower than most, usually because of extra height."
+}

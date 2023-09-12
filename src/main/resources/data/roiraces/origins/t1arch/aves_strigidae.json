@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:night_vision",
+    "roiraces:swoop"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 2,
+  "name": "Aves Strigidae",
+  "description": "A nocturnal variant of the Aves, with excellent night vision and a much stronger gliding ability, however this only really works during the night."
+}

@@ -1,0 +1,9 @@
+{
+  "powers": [
+  ],
+  "icon": "minecraft:player_head",
+  "order": 2,
+  "impact": 1,
+  "name": "Mountain Dwarf",
+  "description": "Instead of down, these Dwarfs dug sideways... into a mountain."
+}

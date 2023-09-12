@@ -1,0 +1,31 @@
+{
+  "type": "origins:prevent_entity_use",
+  "bientity_action": {
+    "type": "origins:actor_action",
+    "action": {
+      "type": "origins:execute_command",
+      "command": "title @s actionbar {\"text\": \"Too big to fit in vehicles!\", \"color\": \"red\"}"
+    }
+  },
+  "bientity_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:target_condition",
+        "condition": {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:boat"
+        }
+      },
+      {
+        "type": "origins:target_condition",
+        "condition": {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:minecart"
+        }
+      }
+    ]
+    },
+  "name": "Big Boned",
+  "description": "You can't fit in vehicles being so big..."
+}

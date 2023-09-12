@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:empowered_swoop",
+    "roiraces:speed/speed_up25"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 2,
+  "name": "Aves Falco",
+  "description": "An swift hunter, Aves Falci are speed adapted Aves which are capable of swift dives from the sky but struggle to maintain regular Aves gliding techniques."
+}

@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_velocity",
+  "modifier": {
+    "value": 0.25,
+    "operation": "multiply_total"
+  },
+  "axes": [
+    "x",
+    "z",
+    "y"
+  ],
+  "name": "Nimble",
+  "description": "You're fast on your feet."
+}

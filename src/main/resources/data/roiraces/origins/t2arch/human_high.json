@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "roiraces:health/health_up2"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 1,
+  "impact": 3,
+  "name": "High human",
+  "description": "A rare human archetype that has far surpassed normal human limits. Now capable of standing toe-to-toe with superior races."
+}

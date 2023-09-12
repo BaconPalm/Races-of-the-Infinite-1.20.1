@@ -1,0 +1,9 @@
+{
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "operation": "multiply_base",
+    "value": 0.5
+  },
+  "name": "Big Appetite",
+  "description": "You need to eat more to sustain you."
+}

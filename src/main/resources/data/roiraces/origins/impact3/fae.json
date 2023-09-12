@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "roiraces:immaterial",
+    "roiraces:environment/darkvision"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 4,
+  "impact": 3,
+  "name": "Fae",
+  "description": "A variety of mystical and magical beings. Fae are no two the same but they all share the ability to return to the Fae Wilds, as well as their chaotic nature."
+}

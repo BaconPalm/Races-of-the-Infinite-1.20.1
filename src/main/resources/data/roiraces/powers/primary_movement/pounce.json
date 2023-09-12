@@ -1,0 +1,37 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:exhaust",
+        "amount": 0.8
+      },
+      {
+        "type": "origins:add_velocity",
+        "z": 1.3,
+        "space": "local_horizontal",
+        "client": true,
+        "server": false
+      },
+      {
+        "type": "origins:add_velocity",
+        "z": 0.8,
+        "space": "local",
+        "client": true,
+        "server": false
+      }
+    ]
+  },
+  "cooldown": 240,
+  "hud_render": {
+    "sprite_location": "roiraces:textures/gui/roi_resource_bar.png",
+    "bar_index": 0
+  },
+  "key": "key.origins.secondary_active",
+  "condition": {
+    "type": "origins:on_block"
+  },
+  "name": "Pounce",
+  "description": "You can leap forward a large distance."
+}

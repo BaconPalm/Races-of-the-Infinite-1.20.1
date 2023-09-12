@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "roiraces:passive_powers/sniff",
+    "roiraces:primary_movement/sprint",
+    "roiraces:primary_attack/bite",
+    "roiraces:hunger/hunger_up5",
+    "roiraces:environment/darkvision",
+    "roiraces:diet/carnivore"
+  ],
+  "icon": "minecraft:player_head",
+  "order": 7,
+  "impact": 1,
+  "name": "Canis",
+  "description": "Loyal but fierce, Canis have keen senses and even keener fangs."
+}

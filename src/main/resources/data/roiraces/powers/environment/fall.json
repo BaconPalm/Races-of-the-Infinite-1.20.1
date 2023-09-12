@@ -1,0 +1,26 @@
+{
+  "type": "origins:multiple",
+
+  "fallreset": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:set_fall_distance",
+      "fall_distance": 0
+    },
+    "interval": 10,
+    "condition": {
+      "type": "origins:fall_distance",
+      "comparison": ">=",
+      "compare_to": 12
+    }
+  },
+
+  "terminal_velocity": {
+    "type": "origins:modify_falling",
+    "velocity": 0.04,
+    "take_fall_damage": true
+  },
+
+  "name": "Free fall",
+  "description": "Able to lower your terminal velocity, you take significantly reduced fall damage from extreme heights."
+}
